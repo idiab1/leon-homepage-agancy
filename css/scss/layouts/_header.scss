@@ -92,14 +92,7 @@
                         }
                     }
 
-                    &:hover + .icon {
-                        span {
-                            background-color: $main-color;
-                            &:nth-of-type(2) {
-                                width: 100%;
-                            }
-                        }
-                    }
+                    
                 }
             }
 
