@@ -1,0 +1,114 @@
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 767.98px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (max-width: 991.98px) {
+  .container {
+    width: 950px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .container {
+    width: 1150px;
+  }
+}
+.header .navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .navbar .nav-logo {
+  height: 40px;
+}
+.header .navbar .nav-logo img {
+  height: 100%;
+}
+.header .navbar .nav-links {
+  position: relative;
+}
+.header .navbar .nav-links .icon {
+  width: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  transition: all ease-in 0.27s;
+}
+.header .navbar .nav-links .icon span {
+  margin-bottom: 4px;
+  height: 3px;
+  border-radius: 10px;
+  background-color: #162c30;
+  transition: all ease-in 0.27s;
+}
+.header .navbar .nav-links .icon span:first-child {
+  width: 100%;
+}
+.header .navbar .nav-links .icon span:nth-of-type(2) {
+  width: 70%;
+}
+.header .navbar .nav-links .icon span:last-child {
+  width: 100%;
+}
+.header .navbar .nav-links .icon:hover span {
+  background-color: #10cab7;
+}
+.header .navbar .nav-links .icon:hover span:nth-of-type(2) {
+  width: 100%;
+}
+.header .navbar .nav-links .links {
+  list-style: none;
+  position: absolute;
+  display: block;
+  top: calc(100% + 20px);
+  right: 0;
+  z-index: 1;
+  padding: 0;
+  margin: 0;
+  min-width: 200px;
+  background-color: #10cab7;
+  transition: all ease-in 0.27s;
+}
+.header .navbar .nav-links .links::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: -30px;
+  border-width: 15px;
+  border-style: solid;
+  border-color: transparent transparent #10cab7;
+}
+.header .navbar .nav-links .links .item {
+  border-bottom: 1px solid rgb(0, 179, 161);
+  transition: all ease-in 0.27s;
+}
+.header .navbar .nav-links .links .item a {
+  display: block;
+  margin: 10px;
+  text-decoration: none;
+  color: #162c30;
+  font-weight: 600;
+  line-height: 1.5;
+  font-size: 15px;
+  transition: all ease-in 0.27s;
+}
+.header .navbar .nav-links .links .item:hover a {
+  padding-left: 10px;
+}
+.header .navbar .nav-links .icon:hover + .links {
+  display: block;
+}
+
+/*# sourceMappingURL=style.css.map */
