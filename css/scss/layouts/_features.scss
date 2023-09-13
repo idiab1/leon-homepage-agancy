@@ -1,8 +1,7 @@
 // Features
 .features {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    
+    padding-top: $section-padding;
+    padding-bottom: $section-padding;
     .row {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
