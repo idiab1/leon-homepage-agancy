@@ -1,4 +1,7 @@
 //->>>>> Helpers
+// Extend
+@import "./helpers/extend";
+
 // Variables
 @import "./helpers/variables";
 
@@ -13,3 +16,5 @@
 // Header
 @import "./layouts/header";
 
+// Features
+@import "./layouts/features";
