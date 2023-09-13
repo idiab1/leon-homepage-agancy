@@ -1,0 +1,42 @@
+// Features
+.features {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    .row {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 4%;
+        // Feat
+        .feat {
+            padding: 30px;
+            text-align: center;
+            @extend .transition;
+            // Icon 
+            .icon {
+                i {
+                    color: $main-color;
+                    font-size: 2.5rem;
+                }
+            }
+            // Info 
+            .info {
+                h3 {
+                    margin-top: 1.6rem;
+                    font-weight: 700;
+                    text-transform: capitalize;
+                }
+                p{
+                    font-size: 16px;
+                    line-height: 1.5;
+                    color: #585858;
+                    margin-bottom: 0;
+                }
+            }
+            &:hover {
+                box-shadow: 3px 3px 5px 0px rgb(171 171 171 / 57%);
+            }
+        }
+    }
+}
+// End of Features
