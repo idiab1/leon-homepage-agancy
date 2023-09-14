@@ -1,0 +1,57 @@
+// Contact
+.contact {
+    padding-top: $section-padding;
+    padding-bottom: $section-padding;
+    background-color: $background-section;
+    // Info
+    .info{
+        padding-top: 30px;
+        padding-bottom: 30px;    
+        text-align: center;
+        ul {
+            list-style: none;
+            margin: 0;
+            li {
+                p{
+                    font-size: 2.3rem;
+                    font-weight: bold;
+                    color: $black-color;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                }
+                a{
+                    text-decoration: none;
+                    color: $main-color;
+                    font-size: 2rem;
+                    font-weight: bold;
+                }
+                &:last-child
+                {
+                    p{
+                        font-weight: 500;
+                        font-size: 16px;
+                        display: inline-block;
+                        margin-top: 15px;
+                    }
+                    ul{
+                        list-style: none;
+                        display: inline-block;
+                        padding-left: 10px;
+                        li {
+                            display: inline-block;
+                            i{
+                                font-size: 19px;
+                                color: $black-color;
+                            }
+                            &:nth-child(2) i{
+                                padding-left: 5px;
+                                padding-right: 5px;
+                            }
+                        }
+                    }
+                } 
+            }
+        }
+    }
+}
+// End of contact
