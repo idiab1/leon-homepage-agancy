@@ -1,0 +1,39 @@
+// Portfolio
+.portfolio {
+    padding-top: $section-padding;
+    padding-bottom: $section-padding;
+    background-color: $background-section;
+    // Row
+    .row {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 4%;
+        // Card Project
+        .card-project{
+            margin-top: 30px;
+            margin-bottom: 30px;
+            background-color: #fff;
+            // Card Header
+            .card-header{
+                width: 100%;
+                height: 200px;
+                background-color: #eee;
+            }
+            // Card Body
+            .card-body {
+                padding: 1rem;
+                h4{
+                    margin: 0;
+                    font-size: 1.14rem;
+                }
+                p{
+                    color: #555555;
+                    line-height: 1.5;
+                    margin-bottom: 0;
+                    margin-top: .35rem;                
+                }
+            }
+        }
+    }
+}
+// End of Portfolio
