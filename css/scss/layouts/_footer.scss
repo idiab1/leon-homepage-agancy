@@ -1,0 +1,20 @@
+// Footer
+.footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: $black-color;
+    // Content
+    .content {
+        text-align: center;
+        p{
+            margin: 0;
+            color: #fff;
+            span{
+                padding-right: 5px;
+                color: $main-color;
+            }
+        }
+    }
+}
+
+// End of Footer
