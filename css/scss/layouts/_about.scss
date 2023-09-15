@@ -1,0 +1,71 @@
+// About
+.about {
+    padding-top: $section-padding;
+    padding-bottom: $section-padding;
+    .row {
+        display: flex;
+        padding-top: 70px;
+        padding-bottom: 70px;    
+        // Image
+        .image{
+            position: relative;
+            width: 250px;
+            height: 375px;
+            background-color: #eee;
+            &::before{
+                position: absolute;
+                content: "";
+                top: -40px;
+                left: -20px;
+                background-color: #ddd;
+                z-index: -1;
+                width: 85px;
+                height: calc(100% + 80px);
+            }
+            &::after{
+                position: absolute;
+                content: "";
+                border-left: 80px solid $main-color;
+                border-bottom: 80px solid $main-color;
+                top: -40px;
+                right: -160px;
+                z-index: -1;
+                width: 120px;
+                height: calc(100% - 115px);
+            }
+        }
+
+        // Info 
+        .info {
+            width: calc(100% - 500px);
+            padding-left: 2rem;
+            padding-bottom: 2rem;
+            margin-left: 20%;
+            p{
+                position: relative;
+                color: #000;
+                line-height: 1.8;
+                font-size: 17px;
+                margin: 0;
+                padding-bottom: 3rem;
+                &:first-child{
+                    display: flex;
+                    flex-wrap: wrap;
+                    &::after{
+                        content: "";
+                        position: absolute;
+                        width: 20%;
+                        height: 2px;
+                        left: 0;
+                        bottom: 10px;
+                        background-color: $main-color;
+                    }
+                }
+                &:last-child {
+                    color: #6b6b6b;
+                }
+            }
+        }
+    }
+}
+// End of About
