@@ -55,3 +55,30 @@
     }
 }
 // End of contact
+
+@media(max-width: 991.98px) {
+    // Contact
+.contact {
+    padding-top: $section-padding-sm;
+    padding-bottom: $section-padding-sm;
+    // Info
+    .info{
+        padding-top: 20px;
+        padding-bottom: 20px;    
+        ul {
+            li {
+                p{
+                    font-size: 1.75rem;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                }
+                a{
+                    font-size: 1.35rem;
+                }
+                
+            }
+        }
+    }
+}
+// End of contact
+}
