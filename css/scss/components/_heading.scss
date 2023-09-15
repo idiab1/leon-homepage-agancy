@@ -20,3 +20,17 @@
         color: #555555;
     }
 }
+// End of section heading
+
+@media(max-width: 991.98px) {
+    // Section Heading
+    .section-header{
+        h2{
+            font-size: 4rem;
+        }
+        p{
+            bottom: 10px;
+            font-size: 17px;
+        }
+    }
+}
