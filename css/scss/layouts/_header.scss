@@ -3,7 +3,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #eef;
+    background: linear-gradient(45deg, rgb(0 0 0 / 80%), rgb(0 0 0 / 80%)),
+    url("../../../images/bg.jpg") no-repeat center center;
+    background-size: cover;
     height: calc(100vh - 80px);
     // Info
     .info {
@@ -19,7 +21,8 @@
             flex-wrap: wrap;
             margin: auto;
             font-size: 17px;
-            line-height: 1.5;        
+            line-height: 1.5;
+            color: #fff;
         }
     }
 }
