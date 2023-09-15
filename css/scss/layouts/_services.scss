@@ -1,0 +1,32 @@
+// Services
+.services {
+    .row {
+        display: flex;
+        padding-top: 70px;
+        padding-bottom: 70px;    
+        // Image
+        .image{
+            position: relative;
+            width: 250px;
+            height: 375px;
+            background-color: #eee;
+            &::after{
+                position: absolute;
+                content: "";
+                top: -40px;
+                right: -20px;
+                background-color: $black-color;
+                z-index: -1;
+                width: 85px;
+                height: calc(100% + 80px);
+            }
+        }
+        // Content
+        .content {
+            width: calc(100% - 220px);
+
+        }
+    }
+}
+
+// End of Services
