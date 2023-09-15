@@ -39,3 +39,35 @@
     }
 }
 // End of Features
+
+@media(max-width: 991.98px) {
+    // Features
+    .features {
+        padding-top: $section-padding-sm;
+        padding-bottom: $section-padding-sm;
+        .row {
+            grid-template-columns: 1fr 1fr;
+            // Feat
+            .feat {
+                padding: 20px;
+                // Icon 
+                .icon {
+                    i {
+                        font-size: 2rem;
+                    }
+                }
+                // Info 
+                .info {
+                    h3 {
+                        margin-top: 1.2rem;
+                        margin-bottom: 0rem;
+                    }
+                    p{
+                        line-height: 1.5;
+                    }
+                }
+            }
+        }
+    }
+    // End of Features
+}
